@@ -2,35 +2,48 @@ body {
     cursor: pointer;
     user-select: none;
     overflow: hidden;
+    background-color: black;
 }
 
-#canvas {
+canvas#canvas {
+    background-color: grey;
 }
 
-body {
+.title {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    width: 80%;
+        margin: auto;
+        text-align: center;
+        font-family: 'Futura', 'Helvetica Neue', Helvetica;
+        text-shadow: 0px 0px 5px white;
+        margin: 0;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 3vmin;
+        font-weight: 700;
 }
+
 
 .copy {
     background: linear-gradient(#9FF781, #F3F781);
     position: absolute;
     top: 15%;
-    left: 10%;
-    width: 80%;
+    left: 30%;
+    width: 40%;
     text-align: center;
     pointer-events: none;
     font-family: 'Futura', 'Helvetica Neue', Helvetica;
     color: #333;
     border-radius: 5px;
-    
-    h1 {
-        margin: 0;
-        color: white;
-        letter-spacing: 1px;
-        font-size: 7vmin;
-        font-weight: 700;
-    }
+    text-shadow: 0px 0px 2px #ddd; 
     
     p {
         margin: 0;
     }
+}
+
+.copy p::first-letter {
+        font-weight: 600;
 }
