@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Kinek-e van szülihete</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div class="copy">
+    <p>L</p>
+    <p>E</p>
+    <p>A</p>
+    <p>K</p>
+</div>
+
+    <script src="confetti.js"></script>
+</body>
+</html>
